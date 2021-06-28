@@ -1,0 +1,111 @@
+
+ /* CSS Reset */
+body{
+    font-family: 'Balsamiq Sans', cursive;
+   color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(img/bg.jpg);
+}
+.left{
+display: inline-block;
+/* border: 2px solid red; */
+position: absolute;
+left: 34px;
+top: 20px;
+}
+.left img{
+    width: 215px;
+}
+.left div{
+    text-align: center;
+    color: red;
+    font-size: 21px;
+}
+.mid{
+    display: block;
+/* border: 2px solid green; */
+width: 37%;
+margin: 12px auto;
+}
+.right{
+    position: absolute;
+    display: inline-block;
+/* border: 2px solid yellow; */
+position: absolute;
+right: 34px;
+top: 20px;
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: red;
+     text-decoration: none;          
+     padding: 34px 23px;
+     padding: 6px 17px;
+    margin: auto;
+    font-size: 16px
+}
+.navbar li a:hover, .navbar li a.active{
+text-decoration: underline;
+color: gray;
+}
+.btn{
+    border: 2px solid red;
+    margin: 0px 10px;
+    border-radius: 23px;
+    color: red;
+   
+    background-color: white;
+    padding: 4px 4px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+}
+a:-webkit-any-link {
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: gray;
+    }
+.container{
+    border: 2px solid rgb(0, 238, 255);
+    margin: 163px 91px;
+    padding: 28px 29px;
+    width: 31%;
+    border-radius: 31px;
+    text-align: center;
+}
+.form-group input{
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    display: block;
+    width: 405px;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 16px;
+    border-radius: 34px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+    background-color: gray;
+    font-size: 22px;
+    font-size: 22px;
+    border-radius: 34px;
+}
+.link{
+
+}
